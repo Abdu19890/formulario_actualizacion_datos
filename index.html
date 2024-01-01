@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección del SVG -->
+    <div id="pagina1">
+        <!-- Incluye tu archivo SVG aquí y agrega un enlace dentro del SVG -->
+        <object type="image/svg+xml" data="tuarchivo.svg" id="miSVG">
+            <a href="pagina2.html" target="_blank" title="Ir a la página 2">
+                <!-- Contenido SVG aquí -->
+            </a>
+        </object>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- pagina2.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección del Formulario -->
+    <div id="pagina2">
+        <img src="logo.png" alt="Logo">
+        <h1>Actualizar mi información en la Newsletter de PiLeJe</h1>
+        <p>Hemos agregado dos campos importantes: provincia y código postal...</p>
+        <form>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" name="provincia" required>
+
+            <label for="codigo-postal">Código postal:</label>
+            <input type="text" id="codigo-postal" name="codigo-postal" required>
+
+            <button type="submit">Actualizar</button>
+        </form>
+    </div>
+</body>
+</html>
+
