@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #001f3f; /* Fondo azul marino */
+}
+
+#movil-container {
+    position: relative;
+    max-width: 100%; /* Ajuste para que no se desborde en pantallas pequeñas */
+}
+
+#iphone {
+    width: 100%; /* Ajuste del ancho del iPhone al 100% del contenedor */
+    max-width: 375px; /* Ancho máximo del iPhone */
+    height: auto; /* Altura automática para mantener la proporción */
+    background-color: #fff;
+    border: 16px solid #001f3f; /* Color azul oscuro para la funda */
+    border-radius: 34px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+#miSVG {
+    width: 100%;
+    height: 100%;
+    max-width: 375px; /* Ancho máximo del iPhone */
+    max-height: 700px; /* Alto máximo del iPhone */
+    display: block; /* Asegurar que sea un elemento de bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+#formulario-container {
+            width: 100%;
+            max-width: 600px; /* Ancho máximo del formulario */
+            background-color: #ffffff; /* Fondo azul marino */
+            border: 16px solid #001f3f; /* Color azul oscuro para el contenedor del formulario */
+            border-radius: 34px;
+            box-shadow: 0 0 3px rgba(230, 229, 229, 20);
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        #formulario-container img {
+            width: 200px;
+            height: 80px;
+            margin-bottom: 20px;
+            color: #001f3f;
+            border-radius: 10px;
+        }
+
+        #formulario-container h1 {
+            font-size: 23px;
+            margin-bottom: 40px;
+            color: #001f3f;
+        }
+
+        #formulario-container p {
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #001f3f;
+            text-align: left;
+            padding-left: 10px; /* Ajusta el valor según sea necesario */
+            padding-right: 10px;
+        }
+        
+
+        #formulario-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #001f3f;
+        }
+
+        #formulario-container label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: left; /* Alinea el texto a la izquierda */
+            width: 80%; /* Ajusta el ancho para que sea consistente con los campos */
+        }
+        
+
+        #formulario-container input, #formulario-container select { 
+            width: 80%;
+            padding: 8px; /* Reducir el padding */
+            margin-bottom: 20px;
+            font-size: 14px; /* Reducir el tamaño de la fuente */
+            border-radius: 8px; /* Agregar bordes redondeados */
+            border: 2px solid #001f3f; /* Color del borde */
+        }
+
+        #formulario-container select {
+            width: 83%;
+            height: 38px; /* Ajusta la altura para que sea consistente con los otros campos */
+        }
+        
+        #formulario-container button {
+            background-color: #001f3f;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
